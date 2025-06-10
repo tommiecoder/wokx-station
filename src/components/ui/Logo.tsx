@@ -1,14 +1,21 @@
-import { Activity } from 'lucide-react';
-
 interface LogoProps {
   className?: string;
+  size?: 'sm' | 'md' | 'lg';
 }
 
-const Logo = ({ className = '' }: LogoProps) => {
+const Logo = ({ className = '', size = 'md' }: LogoProps) => {
+  const sizeClasses = {
+    sm: 'h-8',
+    md: 'h-10',
+    lg: 'h-12'
+  };
+
   return (
-    <div className={`flex items-center justify-center bg-primary-600 text-white p-2 rounded-md ${className}`}>
-      <Activity size={20} />
-    </div>
+    <img 
+      src="/src/assets/WokxStation_Logo_Resized.png" 
+      alt="WokxStation - Work Anywhere, Grow Everywhere" 
+      className={`${sizeClasses[size]} w-auto ${className}`}
+    />
   );
 };
 

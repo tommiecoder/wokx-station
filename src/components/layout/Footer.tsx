@@ -12,8 +12,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <Logo className="text-white" />
-              <span className="ml-2 text-xl font-bold">Wokxstation</span>
+              <Logo size="md" className="brightness-0 invert" />
             </div>
             <p className="text-gray-400 pr-4">
               Hands-on training for remote work — and direct access to companies hiring remote talent.
@@ -102,7 +101,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
-          <p>© {currentYear} Wokxstation. All rights reserved.</p>
+          <p>© {currentYear} WokxStation. All rights reserved.</p>
         </div>
       </div>
     </footer>

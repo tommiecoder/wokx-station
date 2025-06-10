@@ -40,8 +40,7 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <Logo />
-            <span className="ml-2 text-xl font-bold text-primary-800">Wokxstation</span>
+            <Logo size="md" />
           </Link>
 
           {/* Desktop Navigation */}

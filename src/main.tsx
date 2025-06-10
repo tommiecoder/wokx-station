@@ -8,7 +8,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <HelmetProvider>
       <Helmet>
-        <title>Wokxstation | Work Anywhere, Grow Everywhere</title>
+        <title>WokxStation | Work Anywhere, Grow Everywhere</title>
         <meta name="description" content="Hands-on training for remote work — and direct access to companies hiring remote talent." />
       </Helmet>
       <App />
