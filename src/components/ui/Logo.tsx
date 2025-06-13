@@ -12,7 +12,7 @@ const Logo = ({ className = '', size = 'md' }: LogoProps) => {
 
   return (
     <img 
-      src="/src/assets/WokxStation_Logo_Resized.png" 
+      src="/src/assets/WokxStation_Logo_Resized_PhotoGrid.png" 
       alt="WokxStation - Work Anywhere, Grow Everywhere" 
       className={`${sizeClasses[size]} w-auto ${className}`}
     />

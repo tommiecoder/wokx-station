@@ -51,10 +51,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            We believe meaningful work shouldn't be limited by location. At Wokxstation, we provide
-            high-impact training in essential remote skills, preparing people for real jobs in today's digital
-            economy. Our programs are built for accessibility, mentorship, and results — no fluff, no
-            overpriced bootcamps.
+            At The Workstation, we understand the global shift toward virtual employment and the need for a skilled, reliable workforce. Our programs are specifically designed to equip individuals with the tools, skills, and confidence they need to succeed in remote roles across a variety of industries.
           </motion.p>
 
           <div className="space-y-6">
