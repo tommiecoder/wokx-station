@@ -1,3 +1,4 @@
+import logo from '..src/assets/WokxStation_Logo_Resized_PhotoGrid.png';
 interface LogoProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg';

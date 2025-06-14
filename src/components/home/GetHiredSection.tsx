@@ -72,14 +72,14 @@ const GetHiredSection = () => {
               variant="secondary"
               href="/get-hired"
               size="lg"
-              className="bg-white text-primary-800 hover:bg-gray-100"
+              className="bg-white text-primary-600 hover:bg-gray-100 font-semibold shadow-lg"
             >
               Join Our Talent Pool
             </Button>
             <Button
               variant="outline"
               href="/success-stories"
-              className="border-white text-white hover:bg-primary-600"
+              className="border-2 border-white text-white hover:bg-white hover:text-primary-800 font-semibold shadow-lg"
               size="lg"
             >
               See Success Stories

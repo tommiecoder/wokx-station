@@ -58,7 +58,7 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <img 
-              src="https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="https://images.pexels.com/photos/6937875/pexels-photo-6937875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
               alt="Remote work professionals collaborating" 
               className="w-full h-auto rounded-lg shadow-xl"
             />
