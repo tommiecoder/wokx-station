@@ -96,9 +96,9 @@ const ContactSection = () => {
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Location</h4>
                   <p className="text-gray-600">
-                    123 Work Avenue
+                  6 Essien Asibong Lane,
                     <br />
-                    Remote City, RC 10001
+                  Calabar Municipal
                   </p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Phone</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+234 (813) 634-4086</p>
                 </div>
               </div>
 
@@ -129,7 +129,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Live Chat</h4>
-                  <p className="text-gray-600">Available 9 AM - 5 PM EST</p>
+                  <p className="text-gray-600">Always Available</p>
                 </div>
               </div>
             </div>

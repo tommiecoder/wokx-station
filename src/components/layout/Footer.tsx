@@ -81,8 +81,8 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-400">
               <li>Email: info@wokxstation.com</li>
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Address: 123 Work Avenue, Remote City</li>
+              <li>Phone: +234 (813) 634-4086</li>
+              <li>Address: 6 Essien Asibong Lane, Calabar Municipal</li>
             </ul>
             <div className="mt-6">
               <h4 className="font-medium mb-2">Subscribe to our newsletter</h4>

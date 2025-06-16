@@ -1,4 +1,4 @@
-import logoImg from '../../assets/WokxStation_Logo_Resized_PhotoGrid.png';
+import logoImg from '../../assets/WokxStation_Logo_Resized_PhotoGrid-remb.png';
 
 interface LogoProps {
   className?: string;
