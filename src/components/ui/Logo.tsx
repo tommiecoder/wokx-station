@@ -1,4 +1,5 @@
-import logo from '..src/assets/WokxStation_Logo_Resized_PhotoGrid.png';
+import logoImg from '../../assets/WokxStation_Logo_Resized_PhotoGrid.png';
+
 interface LogoProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
@@ -13,8 +14,8 @@ const Logo = ({ className = '', size = 'md' }: LogoProps) => {
 
   return (
     <img 
-      src="/src/assets/WokxStation_Logo_Resized_PhotoGrid.png" 
-      alt="WokxStation - Work Anywhere, Grow Everywhere" 
+      src={logoImg}
+      alt="WokxStation - Work Anywhere, Grow Everywhere"
       className={`${sizeClasses[size]} w-auto ${className}`}
     />
   );
