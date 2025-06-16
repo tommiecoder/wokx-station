@@ -158,7 +158,7 @@ export const courses: Course[] = [
     id: 'tech-sales',
     title: 'Tech Sales/Remote SDR',
     description: 'Master the art of virtual sales development, including prospecting, outreach, and closing techniques.',
-    image: 'https://images.pexels.com/photos/6937686/pexels-photo-6937686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/7689755/pexels-photo-7689755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     duration: '8 weeks',
     mode: 'Live training + practice',
     certification: true,
