@@ -96,9 +96,7 @@ const ContactSection = () => {
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Location</h4>
                   <p className="text-gray-600">
-                  6 Essien Asibong Lane,
-                    <br />
-                  Calabar Municipal
+                  Nigeria
                   </p>
                 </div>
               </div>
@@ -119,7 +117,11 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Phone</h4>
-                  <p className="text-gray-600">+234 (813) 634-4086</p>
+                  <p className="text-gray-600">
+                  +1 (205) 293-8702
+                    <br />
+                  +234 (701) 545-5565
+                  </p>
                 </div>
               </div>
 
