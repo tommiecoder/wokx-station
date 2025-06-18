@@ -17,7 +17,7 @@ const SectionHeader = ({
     <div className={`mb-12 ${centered ? 'text-center' : ''} ${className}`}>
       <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>
       {subtitle && (
-        <div className={`text-gray-600 text-lg max-w-3xl ${centered ? 'mx-auto' : ''}`}>
+        <div className={`text-lg max-w-3xl ${centered ? 'mx-auto' : ''} ${className.includes('text-white') ? 'text-white' : 'text-gray-600'}`}>
           {subtitle}
         </div>
       )}

@@ -12,7 +12,7 @@ const CourseDetailPage = () => {
 
   if (!course) {
     return (
-      <Section background="light\" className="pt-28">
+      <Section background="light" className="pt-28">
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">Course Not Found</h1>
           <p className="text-gray-600 mb-8">The course you're looking for doesn't exist.</p>
@@ -138,14 +138,18 @@ const CourseDetailPage = () => {
           >
             <div className="bg-white p-6 rounded-lg shadow-lg sticky top-24">
               <div className="text-center mb-6">
-                <div className="text-3xl font-bold text-primary-600 mb-2">
-                  ${course.price}
+                <div className="text-2xl font-bold text-primary-600 mb-2">
+                  Ready to Start?
                 </div>
-                <p className="text-gray-600">Full course access</p>
+                <p className="text-gray-600">Begin your remote career journey today</p>
               </div>
 
               <div className="space-y-4">
-                <Button className="w-full" size="lg">
+                <Button 
+                  className="w-full" 
+                  size="lg"
+                  href="https://form.jotform.com/232424031552545"
+                >
                   Enroll Now
                 </Button>
                 <Button variant="outline" className="w-full" size="lg">

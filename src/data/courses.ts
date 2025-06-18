@@ -49,8 +49,7 @@ export const courses: Course[] = [
       'Strong written communication',
       'Reliable internet connection'
     ],
-    price: 599,
-    startDates: ['2024-04-01', '2024-05-01', '2024-06-01']
+    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
   },
   {
     id: 'virtual-assistant',
@@ -100,8 +99,7 @@ export const courses: Course[] = [
       'Good organizational skills',
       'Reliable internet connection'
     ],
-    price: 499,
-    startDates: ['2024-04-15', '2024-05-15', '2024-06-15']
+    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
   },
   {
     id: 'freelance-writing',
@@ -151,8 +149,7 @@ export const courses: Course[] = [
       'Basic writing experience',
       'Familiarity with word processors'
     ],
-    price: 799,
-    startDates: ['2024-04-01', '2024-06-01', '2024-08-01']
+    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
   },
   {
     id: 'tech-sales',
@@ -202,7 +199,6 @@ export const courses: Course[] = [
       'Basic tech understanding',
       'Self-motivated attitude'
     ],
-    price: 999,
-    startDates: ['2024-04-01', '2024-05-01', '2024-06-01']
+    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
   }
 ];

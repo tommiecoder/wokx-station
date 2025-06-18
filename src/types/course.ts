@@ -12,6 +12,5 @@ export interface Course {
   }[];
   outcomes: string[];
   prerequisites: string[];
-  price: number;
   startDates: string[];
 }
