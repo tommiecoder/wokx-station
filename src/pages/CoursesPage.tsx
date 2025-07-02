@@ -17,7 +17,7 @@ const CoursesPage = () => {
           subtitle="Practical training programs designed to prepare you for in-demand remote careers."
         />
         
-        <div className="prose prose-lg mx-auto">
+        <div className="prose prose-lg mx-auto text-center">
           <p>
             Wokxstation offers specialized training programs focused on the most in-demand remote skills. Our courses are designed with input from industry experts and hiring managers to ensure you're learning exactly what employers need.
           </p>

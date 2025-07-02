@@ -17,13 +17,13 @@ const AboutPage = () => {
           subtitle="Changing lives through remote work opportunities and accessible skills training."
         />
         
-        <div className="prose prose-lg mx-auto">
+        <div className="prose prose-lg mx-auto text-center">
           <p>
           The Wokxstation is a mission-driven organization committed to empowering Nigerians by connecting them to global opportunities through remote work.
           </p>
           
           <p>
-          We provide comprehensive training, career development, and recruitment services tailored to the rapidly growing work-from-home economy
+          We provide comprehensive training, career development, and recruitment services tailored to the rapidly growing work-from-home economy.
           </p>
         </div>
       </Section>

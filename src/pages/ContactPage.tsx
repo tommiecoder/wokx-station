@@ -17,7 +17,7 @@ const ContactPage = () => {
           subtitle="Have questions? We're here to help you start your remote career journey."
         />
         
-        <div className="prose prose-lg mx-auto">
+        <div className="prose prose-lg mx-auto text-center">
           <p>
             Whether you're interested in our training programs, looking to hire remote talent, or just want to learn more about what we do, our team is ready to assist you.
           </p>

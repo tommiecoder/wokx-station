@@ -17,7 +17,7 @@ const GetHiredPage = () => {
           subtitle="Your path to landing a rewarding remote job starts here."
         />
         
-        <div className="prose prose-lg mx-auto">
+        <div className="prose prose-lg mx-auto text-center">
           <p>
             At Wokxstation, we don't just train you - we're committed to helping you land a great remote job. Our comprehensive job placement support is designed to connect you with employers who value your newly acquired skills.
           </p>

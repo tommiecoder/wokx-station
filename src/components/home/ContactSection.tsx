@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, MapPin, MessageSquare, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 import Section from '../ui/Section';
 import SectionHeader from '../ui/SectionHeader';
 import Button from '../ui/Button';
@@ -122,16 +122,6 @@ const ContactSection = () => {
                     <br />
                   +234 (701) 545-5565
                   </p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <MessageSquare size={24} className="text-primary-600" />
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium">Live Chat</h4>
-                  <p className="text-gray-600">Always Available</p>
                 </div>
               </div>
             </div>

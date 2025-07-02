@@ -17,7 +17,7 @@ const PartnersPage = () => {
           subtitle="Access pre-trained, remote-ready talent to grow your business."
         />
         
-        <div className="prose prose-lg mx-auto">
+        <div className="prose prose-lg mx-auto text-center">
           <p>
             Wokxstation partners with forward-thinking companies that understand the value of skilled remote workers. We provide access to a pool of pre-vetted candidates who have been specifically trained in the skills you need.
           </p>
