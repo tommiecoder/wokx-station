@@ -152,9 +152,6 @@ const CourseDetailPage = () => {
                 >
                   Enroll Now
                 </Button>
-                <Button variant="outline" className="w-full" size="lg">
-                  Download Syllabus
-                </Button>
               </div>
 
               <div className="mt-6 pt-6 border-t border-gray-200">
