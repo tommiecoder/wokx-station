@@ -34,13 +34,15 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled || isMenuOpen ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+        isScrolled || isMenuOpen ? 'bg-white shadow-md' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between">
+        <div className={`flex items-center justify-between h-16 ${
+          isScrolled || isMenuOpen ? '' : 'h-20'
+        }`}>
           <Link to="/" className="flex items-center">
-            <Logo size="md" />
+            <Logo size="lg" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -70,7 +72,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-700 hover:text-primary-700 focus:outline-none"
+            className="md:hidden text-gray-700 hover:text-primary-700 focus:outline-none flex items-center justify-center w-10 h-10"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
