@@ -6,27 +6,27 @@ import SectionHeader from '../ui/SectionHeader';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Customer Support Specialist',
+      name: 'Promise Umoren',
+      role: 'Telemarketer',
       company: 'TechGrowth Inc.',
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      quote: 'Wokxstation\'s program gave me the skills and confidence to land a remote customer support role that pays twice what I was making locally. The mentorship was invaluable.',
+      image: 'https://i.postimg.cc/05Y4c9BS/1000023229.jpg',
+      quote: 'Before The WokxStation, I had no idea how to get a remote job. After the training and coaching, I gained real skills and confidence. Within weeks, I landed a remote Customer Sales role — and now I work for companies in the US and Canada, getting paid in dollars!',
       rating: 5,
     },
     {
-      name: 'Michael Chen',
-      role: 'Virtual Assistant',
+      name: 'David Temple',
+      role: 'Customer Service',
       company: 'GlobalReach Partners',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      quote: 'After completing the VA training, I had three interviews within a week. The practical skills I learned made all the difference in standing out to employers.',
+      image: 'https://i.postimg.cc/43GPKcXF/Whats-App-Image-2025-08-01-at-09-23-48-168ec477.jpg',
+      quote: 'Partnering with WOKXSTATION was a turning point in my career. They trained me, connected me with the right remote opportunities, and supported me all the way. Now I’m in flexible roles that align with my goals. They don’t just help you get a job—they prepare you to excel!',
       rating: 5,
     },
     {
-      name: 'Priya Patel',
-      role: 'Content Marketing Specialist',
+      name: 'Bukola Adesoji',
+      role: 'Sales Specialist',
       company: 'DigitalFirst Media',
       image: 'https://images.pexels.com/photos/3792581/pexels-photo-3792581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      quote: 'From freelance writing student to full-time content marketer in just 2 months! The portfolio I built during the program helped me showcase my skills to potential clients.',
+      quote: 'My first remote job came through Workstation, and they’ve supported me ever since. From training to landing roles with ARTO, Phoenix Lead Gen, Report Owls, and now Prae Enterprise, it’s been an unreal journey. They genuinely care, always show up, and keep helping me grow. Forever grateful!',
       rating: 4,
     },
   ];
@@ -99,11 +99,11 @@ const TestimonialsSection = () => {
                 <p className="text-gray-600 text-sm">Average salary increase</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-1">200+</div>
+                <div className="text-4xl font-bold text-primary-600 mb-1">20+</div>
                 <p className="text-gray-600 text-sm">Employer partners</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-1">1,500+</div>
+                <div className="text-4xl font-bold text-primary-600 mb-1">150+</div>
                 <p className="text-gray-600 text-sm">Graduates placed</p>
               </div>
             </div>
