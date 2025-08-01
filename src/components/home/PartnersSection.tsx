@@ -23,14 +23,6 @@ const PartnersSection = () => {
     },
   ];
 
-  const companyLogos = [
-    'https://via.placeholder.com/150x60?text=Company+1',
-    'https://via.placeholder.com/150x60?text=Company+2',
-    'https://via.placeholder.com/150x60?text=Company+3',
-    'https://via.placeholder.com/150x60?text=Company+4',
-    'https://via.placeholder.com/150x60?text=Company+5',
-  ];
-
   return (
     <Section background="white" id="partners">
       <SectionHeader
@@ -111,26 +103,8 @@ const PartnersSection = () => {
           <img
             src="https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Remote team collaboration"
-            className="rounded-lg shadow-lg mb-8"
+            className="rounded-lg shadow-lg"
           />
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-center">Trusted by Companies Like</h3>
-            <div className="flex flex-wrap justify-center items-center gap-8">
-              {companyLogos.map((logo, index) => (
-                <motion.img
-                  key={index}
-                  src={logo}
-                  alt={`Partner company ${index + 1}`}
-                  className="h-12 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3, delay: 0.1 * index }}
-                />
-              ))}
-            </div>
-          </div>
         </motion.div>
       </div>
     </Section>
