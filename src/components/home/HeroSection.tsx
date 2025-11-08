@@ -57,11 +57,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <img 
-              src="https://images.pexels.com/photos/6937875/pexels-photo-6937875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Remote work professionals collaborating" 
-              className="w-full h-auto rounded-lg shadow-xl"
-            />
+            <div className="w-full h-72 sm:h-96 md:h-[28rem] lg:h-[32rem] overflow-hidden rounded-lg shadow-xl">
+  <img 
+    src="https://images.pexels.com/photos/6937875/pexels-photo-6937875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+    alt="Remote work professionals collaborating" 
+    className="w-full h-full object-cover object-center"
+  />
+</div>
+
           </motion.div>
         </div>
       </div>
