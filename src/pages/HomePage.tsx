@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Wokxstation | Work Anywhere, Grow Everywhere</title>
+        <title>The Wokxstation | Work Anywhere, Grow Everywhere</title>
         <meta name="description" content="Hands-on training for remote work — and direct access to companies hiring remote talent." />
       </Helmet>
       
