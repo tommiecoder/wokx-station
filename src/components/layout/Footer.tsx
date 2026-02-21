@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram, ChevronRight } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, Whatsapp, ChevronRight, XIcon } from 'lucide-react';
 import Logo from '../ui/Logo';
 
 const Footer = () => {
@@ -19,15 +19,15 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook size={20} />
+                <Whatsapp size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={20} />
+              <a href="https://x.com/wokxstation?t=3IloMDxZCK7uDlTety2zwQ&s=09" className="text-gray-400 hover:text-white transition-colors">
+                <XIcon size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/the-wokxstation/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/wokxstation?igsh=MWEzOTR6Nmk3OXQ1eg==" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
             </div>
