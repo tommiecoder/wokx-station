@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram, Whatsapp, ChevronRight, XIcon } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, ChevronRight, XIcon } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 import Logo from '../ui/Logo';
+import React from 'react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,11 +20,11 @@ const Footer = () => {
               Hands-on training for remote work — and direct access to companies hiring remote talent.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Whatsapp size={20} />
+              <a href="https://whatsapp.com/channel/0029VbBFbPDHrDZiRM7sB543" className="text-gray-400 hover:text-white transition-colors">
+                <FaWhatsapp size={20} />
               </a>
               <a href="https://x.com/wokxstation?t=3IloMDxZCK7uDlTety2zwQ&s=09" className="text-gray-400 hover:text-white transition-colors">
-                <XIcon size={20} />
+                <Twitter size={20} />
               </a>
               <a href="https://www.linkedin.com/company/the-wokxstation/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
