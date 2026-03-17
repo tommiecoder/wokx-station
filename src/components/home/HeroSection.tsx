@@ -40,10 +40,10 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <Button href="/courses" size="lg" className="w-full sm:w-auto">
-                Get Trained <ArrowRight size={16} className="ml-2" />
+                Join the Wokxforce <ArrowRight size={16} className="ml-2" />
               </Button>
               <Button variant="outline" href="/partners" size="lg" className="w-full sm:w-auto">
-                Partner With Us
+                Hire Talent
               </Button>
               <Button variant="text" href="/courses" size="lg" className="w-full sm:w-auto">
                 View Courses <ArrowRight size={16} className="ml-1" />
