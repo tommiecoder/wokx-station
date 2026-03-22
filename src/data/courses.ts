@@ -49,7 +49,7 @@ export const courses: Course[] = [
       'Strong written communication',
       'Reliable internet connection'
     ],
-    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
+    startDates: ['2026-07-01', '2026-08-01', '2026-09-01']
   },
   {
     id: 'virtual-assistant',
@@ -99,7 +99,7 @@ export const courses: Course[] = [
       'Good organizational skills',
       'Reliable internet connection'
     ],
-    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
+    startDates: ['2026-07-01', '2026-08-01', '2026-09-01']
   },
   {
     id: 'freelance-writing',
@@ -149,7 +149,7 @@ export const courses: Course[] = [
       'Basic writing experience',
       'Familiarity with word processors'
     ],
-    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
+    startDates: ['2026-07-01', '2026-08-01', '2026-09-01']
   },
   {
     id: 'tech-sales',
@@ -199,6 +199,6 @@ export const courses: Course[] = [
       'Basic tech understanding',
       'Self-motivated attitude'
     ],
-    startDates: ['2025-07-01', '2025-08-01', '2025-09-01']
+    startDates: ['2026-07-01', '2026-08-01', '2026-09-01']
   }
 ];
