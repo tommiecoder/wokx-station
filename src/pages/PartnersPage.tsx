@@ -14,7 +14,7 @@ const PartnersPage = () => {
       <Section background="light" className="pt-28">
         <SectionHeader
           title="Partner With Us"
-          subtitle="Access pre-trained, remote-ready talent to grow your business."
+          subtitle="Connecting Global Companies With Remote-Ready Talent."
         />
         
         <div className="prose prose-lg mx-auto text-center">
