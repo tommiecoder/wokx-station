@@ -85,7 +85,7 @@ const PartnersSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <Button href="/partners" size="lg">
+            <Button href="/contact" size="lg">
               Partner With Us
             </Button>
             <Button variant="outline" href="/talent-match" size="lg">
