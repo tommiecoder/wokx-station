@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import Section from '../components/ui/Section';
 import SectionHeader from '../components/ui/SectionHeader';
 import PartnersSection from '../components/home/PartnersSection';
+import TalentShowcase from '../components/home/TalentShowcase';
 
 const PartnersPage = () => {
   return (
@@ -28,11 +29,12 @@ const PartnersPage = () => {
         </div>
       </Section>
       
+      <TalentShowcase />
+
       <PartnersSection />
-      
-      {/* Additional partners page content would go here */}
     </>
   );
 };
 
 export default PartnersPage;
+
