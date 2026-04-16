@@ -7,6 +7,7 @@ import CourseDetailPage from './pages/CourseDetailPage';
 import GetHiredPage from './pages/GetHiredPage';
 import PartnersPage from './pages/PartnersPage';
 import ContactPage from './pages/ContactPage';
+import TalentMatchPage from './pages/TalentMatchPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/courses/:courseId" element={<CourseDetailPage />} />
           <Route path="/get-hired" element={<GetHiredPage />} />
           <Route path="/partners" element={<PartnersPage />} />
+          <Route path="/talent-match" element={<TalentMatchPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Layout>
