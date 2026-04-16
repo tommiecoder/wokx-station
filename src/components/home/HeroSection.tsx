@@ -45,8 +45,8 @@ const HeroSection = () => {
               <Button variant="outline" href="/courses" size="lg" className="w-full sm:w-auto">
                 Join the Wokxforce
               </Button>
-              <Button variant="text" href="/courses" size="lg" className="w-full sm:w-auto">
-                View Courses <ArrowRight size={16} className="ml-1" />
+              <Button variant="text" href="/talent-match" size="lg" className="w-full sm:w-auto">
+                Match with Talent <ArrowRight size={16} className="ml-1" />
               </Button>
             </motion.div>
           </div>
@@ -73,3 +73,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
